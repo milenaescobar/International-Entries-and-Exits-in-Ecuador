@@ -44,26 +44,10 @@ project/
 
 ## Running the Analysis
 
-### Master Script
-A master script (`master_script.do`) is provided to run the entire analysis from start to finish. This script includes data cleaning, model fitting, and results generation. To run the complete analysis:
-
-1. Open Stata.
-2. Navigate to the `scripts/` folder.
-3. Run the following command:
-```stata
-do master_script.do
-```
-
 This will execute all the necessary scripts in the correct order, ensuring a reproducible workflow.
 
 ## Version Control
 Plenty of commits with meaningful titles are included in the GitHub repository to help keep track of the analysis process and allow easy reversion to previous states if needed.
 
 ## Reproducibility
-The analysis has been designed to be reproducible on a fresh computer with minimal setup. Please ensure that Stata and the necessary packages are installed before running the master script. For session information and software versions used, see the session log in the `report/` folder.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-For any questions, please contact **username** at [email@example.com].
+The analysis has been designed to be reproducible on a fresh computer with minimal setup. Please ensure that Stata and the necessary packages are installed before running the master script. 
