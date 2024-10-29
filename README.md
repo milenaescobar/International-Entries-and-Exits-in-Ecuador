@@ -1,5 +1,9 @@
 # International Migration Analysis in Ecuador (2023)
 
+Milena Escobar
+Anna Belén Marcillo
+Marjorie Ortiz
+
 This repository contains an analysis of the factors influencing international migration in Ecuador during 2023. The analysis is based on data from the International Entry and Exit Registry (ESI) provided by INEC. This README provides an overview of the repository contents and instructions on how to run the analysis.
 
 ## Repository Contents
