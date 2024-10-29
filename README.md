@@ -20,10 +20,7 @@ To run the analysis on a fresh computer, you'll need:
 - **Stata** installed for data analysis.
 - The following Stata packages: `estout`, `gtools`.
 
-Ensure that you have the necessary packages installed before running the scripts. To install any missing Stata packages, use:
-```stata
-ssc install package_name
-```
+Ensure that you have the necessary packages installed before running the scripts. 
 
 ### Directory Structure
 The repository uses relative file paths, so please clone the entire repository to ensure all files are properly linked:
@@ -35,15 +32,12 @@ After cloning, you should see the following structure:
 ```
 project/
 ├── data/
-│   ├── raw_data.dta
 │   ├── cleaned_data.dta
 ├── scripts/
 │   ├── analysis.R
 ├── report/
-│   ├── report.Rmd
 │   ├── report.pdf
 ├── presentation/
-│   ├── slides.Rmd
 │   ├── slides.pdf
 └── README.md
 ```
